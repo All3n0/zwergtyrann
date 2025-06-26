@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import DownloadMemoriesButton from '@/components/DownloadButton'
 
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], display: 'swap',adjustFontFallback: false })
 
 export const metadata: Metadata = {
   title: 'Our Story 💖',
