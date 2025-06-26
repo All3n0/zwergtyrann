@@ -20,7 +20,7 @@ export default function DownloadMemoriesButton() {
   return (
     <button
       onClick={downloadAll}
-      className="bg-white text-black px-4 py-2 rounded-full shadow-md hover:bg-gray-200 transition-all"
+      className="button"
     >
       Download Memories
     </button>

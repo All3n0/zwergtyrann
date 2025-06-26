@@ -109,7 +109,7 @@ export default function MemoryPage() {
         <p className="text-3xl md:text-4xl font-bold mb-4 text-white">Thank you for letting me 💖</p>
         <button
           onClick={() => router.push('/')}
-          className="bg-white text-black font-semibold px-6 py-2 rounded-full shadow-md hover:bg-gray-200 transition-all"
+          className="button"
         >
           Go Home
         </button>

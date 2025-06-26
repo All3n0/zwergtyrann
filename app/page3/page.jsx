@@ -17,7 +17,7 @@ export default function Page3() {
 
 
       <div className="relative z-10 text-white text-center px-4 max-w-lg">
-        <h1 className="text-4xl font-bold mb-4 backdrop-filter backdrop-blur-sm"style={{"color":"purple"}}>Hey Daisy</h1>
+        <h1 className="text-4xl font-bold mb-4 backdrop-filter underline backdrop-blur-sm"style={{"color":"purple"}}backgroundColor={{color:"rgba(0, 0, 0, 0.5)"}}>Hey Daisy</h1>
  <div className="relative z-10 px-6 max-w-6xl font-bold text-start leading-snug"
   style={{
     fontFamily: '"Roboto Condensed", sans-serif',

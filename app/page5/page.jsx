@@ -27,7 +27,7 @@ export default function Page5() {
         <p className="text-xl mb-6">This journey has led to one question — one moment, forever yours.</p>
         <button 
           onClick={handleButtonClick}
-          className="bg-white text-black px-6 py-3 rounded-full text-xl font-semibold shadow-lg hover:bg-pink-100 transition-colors"
+          className="button"
         >
           Of course I will ❤️
         </button>

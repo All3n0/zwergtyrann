@@ -16,7 +16,7 @@ export default function Page2() {
 
       <NavigationDots />
       
-      <div className="relative z-10 text-white text-center px-4 max-w-lg">
+      <div className="relative z-10 text-white text-center px-4 max-w-lg"style={{lineHeight: '0.2'}}>
         <h1 className="text-4xl font-bold mb-4 underline" style={{"color":"white"}}>DDA?!</h1>
 <div
   className="relative z-10 px-6 max-w-6xl font-bold text-start leading-snug"
