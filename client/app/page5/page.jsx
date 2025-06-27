@@ -23,7 +23,7 @@ export default function Page5() {
       <NavigationDots />
 
       <div className="relative z-10 text-white text-center px-4 max-w-lg">
-        <h1 className="text-5xl font-extrabold mb-6">Can I be your borfriend?💍</h1>
+        <h1 className="text-5xl font-extrabold mb-6">Can I be your boyfriend?💍</h1>
         <p className="text-xl mb-6">This journey has led to one question — one moment, forever yours.</p>
         <button 
           onClick={handleButtonClick}
