@@ -16,15 +16,15 @@ export default function Page4() {
       <NavigationDots />
 
 
-      <div className="relative z-10 text-white text-center px-4 max-w-lg">
-        <h1 className="text-4xl font-bold mb-4 underline">Always-Daniel Caesar</h1>
+      <div className="relative z-10 text-white text-center px-4 max-w-lg"style={{backgroundColor: 'rgba(0, 0, 0, 0.5)'}}>
+        <h1 className=" text-white text-4xl font-bold mb-4 underline" style={{"color":"white"}}>Always-Daniel Caesar</h1>
 <div className="relative z-10 px-6 max-w-6xl font-bold text-start leading-snug"
   style={{
     fontFamily: '"Roboto Condensed", sans-serif',
     color: 'white',
     fontSize: '32px', // You can increase to 72px or 80px if needed
     lineHeight: '0.8',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    // backgroundColor: 'rgba(0, 0, 0, 0.5)',
   }}>
 
   <p className="mb-4">Baby, baby, there will always be</p>
