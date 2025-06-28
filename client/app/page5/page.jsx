@@ -18,12 +18,12 @@ export default function Page5() {
       <video autoPlay loop muted playsInline className="absolute w-full h-full object-cover z-0">
         <source src="/animations/vid5.mp4" type="video/mp4" />
       </video>
-      <AudioPlayer src="/audio/audio5.mp3" startAt={96}/>
+      <AudioPlayer src="/audio/audio5.mp3" startAt={7}/>
 
       <NavigationDots />
 
       <div className="relative z-10 text-white text-center px-4 max-w-lg">
-        <h1 className="text-5xl font-extrabold mb-6">Can I be your boyfriend?💍</h1>
+        <h1 className="text-5xl font-extrabold mb-6">May I be your boyfriend?💍</h1>
         <p className="text-xl mb-6">This journey has led to one question — one moment, forever yours.</p>
         <button 
           onClick={handleButtonClick}

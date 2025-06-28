@@ -110,7 +110,7 @@ export default function MemoryPage() {
 
       {/* Fixed Footer */}
       <div className="h-[150px] w-full flex flex-col items-center justify-center bg-pink-500 z-10 p-4"style={{backgroundColor: 'rgba(255, 0, 0, 0.5)'}}>
-        <p className="text-3xl md:text-4xl font-bold mb-4 text-white">Jowi and Awalle 💖</p>
+        <p className="text-3xl md:text-4xl font-bold mb-4 text-white">Jowi and Awall 💖</p>
         <button
           onClick={() => router.push('/')}
           className="button"

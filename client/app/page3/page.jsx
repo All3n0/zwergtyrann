@@ -16,25 +16,38 @@ export default function Page3() {
       <NavigationDots />
 
 
-      <div className="relative z-10 text-white text-center px-4 max-w-lg">
-        <h1 className="text-4xl font-bold mb-4 backdrop-filter underline backdrop-blur-sm"style={{"color":"purple"}}backgroundColor={{color:"rgba(0, 0, 0, 0.5)"}}>Hey Daisy</h1>
- <div className="relative z-10 px-6 max-w-6xl font-bold text-start leading-snug"
-  style={{
-    fontFamily: '"Roboto Condensed", sans-serif',
-    color: 'white',
-    fontSize: '32px', // You can increase to 72px or 80px if needed
-    lineHeight: '0.8',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-  }}>
+<div className="relative z-10 text-white text-left px-4 max-w-lg" 
+     style={{
+       backgroundColor: 'pink',
+       padding: '30px',
+       borderRadius: '15px',
+       boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
+     }}>
 
-  <p className="mb-4">Out of Body</p>
-  <p className="mb-4">That's just how I feel when I'm around you shawty</p>
-  <p className="mb-4">Last Night we didn't say it, but girl we both thought it</p>
-  <p className="mb-4">Why second guess? I should have stayed</p>
-  <p className="mb-4">You say the word I'm on my way</p>
-  <p className="mb-4">This shit feels like teenage fever</p>
+  {/* Title - kept your exact styling */}
+  <h1 className="text-4xl font-bold mb-4 underline" style={{color:"purple"}}>Hey Daisy</h1>
+  <p className="text-base font-bold text-gray-600 italic">Drizzy Drake</p>
+
+  {/* Lyrics - left-aligned with your exact text */}
+  <div className="space-y-4 text-left">
+    <p className="text-2xl font-bold ">Out of Body</p>
+    <p className="text-xl font-bold">That's just how I feel when I'm around you shawty</p>
+    <p className="text-xl font-bold">Last Night we didn't say it, but girl we both thought it</p>
+    <p className="text-xl font-bold">Why second guess? I should have stayed</p>
+    <p className="text-xl font-bold">You say the word I'm on my way</p>
+    <p className="text-xl font-bold">This shit feels like teenage fever</p>
   </div>
-</div>      
+
+  {/* Spotify icon - slightly larger as requested */}
+  <div className="flex items-center mt-4">
+    <img 
+      src="https://img.icons8.com/?size=50&id=11116&format=png&color=000000" 
+      alt="Spotify" 
+      className="w-5 h-5 mr-2"  
+    />
+    <span className="text-sm font-bold">Spotify</span>
+  </div>
+</div>
     </PageWrapper>
   );
 }

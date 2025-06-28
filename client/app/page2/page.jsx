@@ -16,28 +16,40 @@ export default function Page2() {
 
       <NavigationDots />
       
-      <div className="relative z-10 text-white text-center px-4 max-w-lg"style={{lineHeight: '0.2'}}>
-        <h1 className="text-4xl font-bold mb-4 underline" style={{"color":"white"}}>DDA?!</h1>
-<div
-  className="relative z-10 px-6 max-w-6xl font-bold text-start leading-snug"
-  style={{
-    fontFamily: '"Roboto Condensed", sans-serif',
-    color: 'white',
-    fontSize: '32px', // You can increase to 72px or 80px if needed
-    lineHeight: '0.8',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-  }}
->
-  <p className="mb-4">I dedicate, I dedicate</p>
-  <p className="mb-4">I dedicate, I dedicate, I dedicate</p>
-  <p className="mb-4">I dedicate to you</p>
-  <p className="mb-4">(I dedicate, I dedicate</p>
-  <p className="mb-4">I dedicate, I dedicate, oh yeah</p>
-  <p className="mb-4">I dedicate, I dedicate</p>
-  <p>I dedicate, I dedicate to-)</p>
+<div className="relative z-10 text-white text-left px-4 max-w-lg" 
+     style={{
+       backgroundColor: 'pink',
+       padding: '30px',
+       borderRadius: '15px',
+       boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
+     }}>
+
+  {/* Title with purple underline */}
+  <h1 className="text-4xl font-bold mb-4 underline" style={{color:"purple"}}>DDA?!</h1>
+<p className="text-base font-bold text-gray-600 italic">Drizzy Drake</p>
+  {/* Lyrics with left alignment */}
+  <div className="space-y-4 text-left">
+    <p className="text-2xl font-bold ">I dedicate, I dedicate</p>
+    <p className="text-xl font-bold">I dedicate, I dedicate, I dedicate</p>
+    <p className="text-xl font-bold">I dedicate to you</p>
+    <p className="text-xl font-bold">(I dedicate, I dedicate</p>
+    <p className="text-xl font-bold">I dedicate, I dedicate, oh yeah</p>
+    <p className="text-xl font-bold">I dedicate, I dedicate</p>
+    <p className="text-xl font-bold">I dedicate, I dedicate to-)</p>
+  </div>
+
+  {/* Spotify footer */}
+  <div className="flex items-center mt-4">
+    <img 
+      src="https://img.icons8.com/?size=50&id=11116&format=png&color=000000" 
+      alt="Spotify" 
+      className="w-5 h-5 mr-2"  
+    />
+    <span className="text-sm font-bold text-black">Spotify</span>
+  </div>
 </div>
 
-      </div>
+      
     </PageWrapper>
   );
 }
