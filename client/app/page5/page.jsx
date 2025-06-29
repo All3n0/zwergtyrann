@@ -29,7 +29,7 @@ export default function Page5() {
           onClick={handleButtonClick}
           className="button"
         >
-          Of course I will ❤️
+          Of course you may ❤️
         </button>
       </div>
     </PageWrapper>
